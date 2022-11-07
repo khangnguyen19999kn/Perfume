@@ -10,7 +10,7 @@ export default function () {
         }else setTog('disable')
 
     }
-    console.log(tog)
+    
   return (
     <div className="full-Nav">
         <div className={"respon-logo"+ (tog==="responsive"?" disable-item":"")}>
